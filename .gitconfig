@@ -3,3 +3,5 @@
 	email = "amcleod1111@gmail.com"
 [core]
 	editor = "nvim"
+[alias]
+	tree = log --all --decorate --oneline --graph
