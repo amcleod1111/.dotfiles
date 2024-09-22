@@ -28,3 +28,4 @@ sudo apt install xclip
 sudo apt install build-essential
 sudo snap install --classic nvim
 sudo snap install todoist
+sudo snap install --classic obsidian
