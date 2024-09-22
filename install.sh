@@ -13,6 +13,12 @@ ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -sf ~/.dotfiles/inputrc ~/etc/inputrc
 ln -sf ~/.dotfiles/.profile ~/.profile
 
+source ~/.bashrc
+source ~/.bash_aliases
+source ~/.bash_profile
+source ~/etc/inputrc
+source ~/.profile
+
 # Install Software
 sudo apt install neofetch
 sudo apt install xclip
