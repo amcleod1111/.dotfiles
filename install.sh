@@ -8,7 +8,6 @@ sudo apt-get update
 
 # Symlinks
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
-ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 
 # Install Software
 sudo apt install neofetch
