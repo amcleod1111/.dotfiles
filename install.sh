@@ -8,6 +8,10 @@ sudo apt-get update
 
 # Symlinks
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
+ln -s ~/.dotfiles/.bash_aliases ~/.bash_aliases
+ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
+ln -s ~/.dotfiles/inputrc ~/etc/inputrc
+ln -s ~/.dotfiles/.profile ~/.profile
 
 # Install Software
 sudo apt install neofetch
