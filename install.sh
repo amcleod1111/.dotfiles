@@ -5,6 +5,7 @@
 # Update Package Managers
 sudo apt update
 sudo apt-get update
+sudo snap set core experimental.refresh-app-awareness=true
 
 # Symlinks
 ln -sf ~/.dotfiles/.bashrc ~/.bashrc
@@ -14,6 +15,7 @@ ln -sf ~/.dotfiles/inputrc ~/etc/inputrc
 ln -sf ~/.dotfiles/.profile ~/.profile
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
+# Sourcing
 source ~/.bashrc
 source ~/.bash_aliases
 source ~/.bash_profile
@@ -25,3 +27,4 @@ sudo apt install neofetch
 sudo apt install xclip
 sudo apt install build-essential
 sudo snap install --classic nvim
+sudo snap install todoist
