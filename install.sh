@@ -29,3 +29,7 @@ sudo apt install build-essential
 sudo snap install --classic nvim
 sudo snap install todoist
 sudo snap install --classic obsidian
+
+# Configure Kickstart.nvim
+git clone https://www.github/amcleod1111/kickstart.nvim ~/.config/nvim
+nv
