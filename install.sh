@@ -15,6 +15,6 @@ ln -s ~/.dotfiles/.profile ~/.profile
 
 # Install Software
 sudo apt install neofetch
-sudo apt install nvim
 sudo apt install xclip
 sudo apt install build-essential
+sudo snap install --classic nvim
