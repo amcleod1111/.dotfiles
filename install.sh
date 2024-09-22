@@ -12,6 +12,7 @@ ln -s ~/.dotfiles/.bash_aliases ~/.bash_aliases
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -sf ~/.dotfiles/inputrc ~/etc/inputrc
 ln -sf ~/.dotfiles/.profile ~/.profile
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 source ~/.bashrc
 source ~/.bash_aliases
