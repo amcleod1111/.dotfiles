@@ -5,3 +5,5 @@
 	editor = "nvim"
 [alias]
 	tree = log --all --decorate --oneline --graph
+[init]
+	defaultbranch = main
