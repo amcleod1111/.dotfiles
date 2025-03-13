@@ -8,9 +8,9 @@ sudo apt-get update
 sudo snap set core experimental.refresh-app-awareness=true
 
 # Symlinks & Sourcing
-ln -sf ~/.dotfiles/.bashrc ~/.bashrc && source ~/.bashrc
-ln -s ~/.dotfiles/.bash_aliases ~/.bash_aliases && source ~/.bash_aliases
-ln -s ~/.dotfiles/.bash_profile ~/.bash_profile && source ~/.bash_profile
+ln -sf ~/.dotfiles/bash/.bashrc ~/.bashrc && source ~/.bashrc
+ln -s ~/.dotfiles/bash/.bash_aliases ~/.bash_aliases && source ~/.bash_aliases
+ln -s ~/.dotfiles/bash/.bash_profile ~/.bash_profile && source ~/.bash_profile
 ln -sf ~/.dotfiles/inputrc ~/etc/inputrc && source ~/etc/inputrc
 ln -sf ~/.dotfiles/.profile ~/.profile && source ~/.profile
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
